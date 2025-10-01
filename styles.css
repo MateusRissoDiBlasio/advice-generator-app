@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    background-color: hsl(218, 23%, 16%);
+    padding: 0.8rem;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1.25rem; */
+    background-color: hsl(217, 19%, 24%);
+    align-self: center;
+    justify-self: center;
+    padding: 2.4rem 0.8rem 0 0.8rem;
+    width: 19.5rem;
+    border-radius: 0.6rem;
+    font-family: "Manrope", sans-serif;
+
+    h1{
+        font-family: "Manrope", sans-serif;
+        text-transform: uppercase;
+        color:  hsl(150, 100%, 66%);
+        font-size: 0.625rem;
+        letter-spacing: 0.25rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
+.advice{
+    padding: 0.6rem;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+#desktopDivider{
+    display: none;
+}
+
+.diceButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    transform: translate(0, 2rem);
+}
+
+.diceButton:hover{
+    cursor: pointer;
+    filter: drop-shadow(0rem 0rem 1rem  hsl(150, 100%, 66%));
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 70px; 
+    color: hsl(193, 38%, 86%);
+    a { 
+        color: hsl(150, 100%, 66%);
+    }
+}
+
+@media (max-width: 360px){
+
+    main{
+        padding: 2.4rem 0.8rem 0 0.8rem;
+        width: 17rem;
+    }
+ 
+    .advice{
+        font-size: 1rem;
+    }
+ 
+    #mobileDivider{
+        width: 90%;
+    }
+
+    .diceButton{
+    width: 3rem;
+    height: 3rem;
+    transform: translate(0, 1.5rem);
+    img{
+        width: 40%;
+    }
+}
+
+}
+
+
+@media (min-width: 600px){
+
+    main{
+        padding: 2.8rem 0.8rem 0 0.8rem;
+        width: 32rem;
+        border-radius: 0.6rem;
+        h1{
+            font-size: 0.8rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    .advice{
+        padding: 0.6rem 1.8rem;
+        font-size: 1.6rem;
+        margin-bottom: 0.6rem;
+    }   
+
+    #mobileDivider{
+        display: none;
+    }
+
+    #desktopDivider{
+        display: initial;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
