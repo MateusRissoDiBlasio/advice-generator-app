@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://mateusrissodiblasio.github.io/advice-generator-app](https://mateusrissodiblasio.github.io/advice-generator-app)
+- Live Site URL: [https://www.frontendmentor.io/solutions/responsive-advice-generator-app-OM7MLhyb68](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-OM7MLhyb68)
 
 ## My process
 
@@ -54,5 +54,5 @@ API tools nowadays are massively used to achieve great workflows allowing instan
 
 ## Author
 
-- Website - [Mateus Risso Di Blasio](https://github.com/MateusRissoDiBlasio)
+- GitHub - [Mateus Risso Di Blasio](https://github.com/MateusRissoDiBlasio)
 - Frontend Mentor - [@MateusRissoDiBlasio](https://www.frontendmentor.io/profile/MateusRissoDiBlasio)
